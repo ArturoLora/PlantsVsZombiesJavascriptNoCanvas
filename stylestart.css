@@ -1,0 +1,46 @@
+body {
+ background-repeat: no-repeat;
+ background-image: url(./img/home.jpg);
+ background-color: grey;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+ height: 768px;
+ width: 1024px;
+ margin: 0 auto;
+ align-items: center;
+ flex-direction: column;
+ position: relative;
+}
+
+.titlescreen {
+ height: 768px;
+ width: 1024px;
+}
+
+#btn {
+   background-color: #fff000;
+   border-radius: 12px;
+   color: #000;
+   cursor: pointer;
+   font-weight: bold;
+   padding: 21px;
+   text-align: center;
+   transition: 200ms;
+   width: 20%;
+   box-sizing: border-box;
+   border: 0;
+   font-size: 30px;
+   user-select: none;
+   -webkit-user-select: none;
+   touch-action: manipulation;
+   position: relative;
+   top: 76%;
+   left: 51%;
+ }
+
+ #btn:hover {
+    background-color: #2196f3;
+    color: #FFEB3B;
+    transition: 200ms;
+  }
