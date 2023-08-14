@@ -1,0 +1,240 @@
+body {
+  background-repeat: no-repeat;
+  background-image: url(./img/stage.jpeg);
+  background-color: grey;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 768px;
+  width: 1024px;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+#energyTotal {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+i {
+  color: yellow;
+}
+
+#gamestage {
+  position: absolute;
+}
+
+.gameboard {
+  display: flex;
+  position: initial;
+  left: 8px;
+}
+
+#gameinterface {
+  display: flex;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 111px;
+  height: 124px;
+  position: relative;
+}
+
+.squareI {
+  width: 113px;
+  height: 136px;
+  position: relative;
+  background-image: url("./img/Pvz_Peashooter.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.squareII {
+  width: 113px;
+  height: 136px;
+  position: relative;
+  background-image: url("./img/PvZ_Sunflower.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.squareIII {
+  width: 113px;
+  height: 136px;
+  position: relative;
+  background-image: url("./img/Wall-nutSeedPacket.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.squareEnergy {
+  width: 678px;
+  height: 136px;
+  position: relative;
+}
+
+/* .beige {
+ background-color: rgb(227, 227, 199);
+ opacity: 0.5
+}
+
+.brown {
+ background-color: rgb(96, 54, 54);
+ opacity: 0.5
+} */
+/* .black {
+ background-color: rgb(0,0,0);
+ opacity: 0.5
+} */
+
+.yellow {
+  background-color: #ffff00;
+}
+
+#info {
+  height: 30px;
+}
+
+.highlight {
+  background-color: rgb(233, 102, 102);
+}
+
+.target {
+  border: solid 10px rgba(169, 56, 56);
+  box-sizing: border-box;
+}
+
+.peashooter {
+  height: 80px;
+  width: 80px;
+  background-image: url("./img/PeaShootera.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 23px;
+  left: 14%;
+}
+
+.sunflower {
+  height: 111px;
+  width: 111px;
+  background-image: url("./img/sunflower.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.wallnut {
+  height: 91px;
+  width: 80px;
+  background-image: url("./img/wallnut.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 10px;
+  top: 27px;
+}
+.sun {
+  height: 80px;
+  width: 80px;
+  background-image: url("./img/sun.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  left: 10px;
+  top: 10px;
+}
+
+.sunFall {
+  height: 80px;
+  width: 80px;
+  background-image: url("./img/sun.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+}
+
+.bala {
+  background-image: url(./img/bala.png);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  position: fixed;
+}
+
+.zombie {
+  width: 110px;
+  height: 110px;
+  background-image: url("./img/Zombieidle.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
+
+.zombieEating {
+  width: 110px;
+  height: 110px;
+  background-image: url("./img/Zombie_Eat.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
+
+.lawnMower {
+  width: 110px;
+  height: 110px;
+  background-image: url("./img/Lawn_Mower.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
+
+.saitama {
+  width: 110px;
+  height: 110px;
+  background-image: url("./img/saitamaRunning.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
+
+.saitamaPunch {
+  width: 110px;
+  height: 110px;
+  background-image: url("./img/saitamaPunch.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
+
+.grut {
+  width: 110px;
+  height: 110px;
+  background-image: url("./img/grutRun.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
+
+.grutAttaking {
+  width: 110px;
+  height: 110px;
+  background-image: url("./img/grutAttack.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
